@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Security Header: Content Security Policy untuk mencegah serangan XSS -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: 'unsafe-inline'; img-src 'self' https: data:;">
+    <title>Home Page of Shahmi | IT Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Pustaka Ikon Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1><i class="fa-solid fa-laptop-code"></i> Welcome to My Digital Space</h1>
+        <p>Exploring Information Technology, Web Development, and AI Innovations</p>
+    </header>
+
+    <!-- Menu Navigasi Berikon -->
+    <nav>
+        <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="about.html"><i class="fa-solid fa-user"></i> About Me</a>
+        <a href="interests.html"><i class="fa-solid fa-heart"></i> Interests</a>
+        <a href="professional.html"><i class="fa-solid fa-briefcase"></i> Professional</a>
+        <a href="portfolio.html"><i class="fa-solid fa-folder-open"></i> Portfolio</a>
+        <a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+    </nav>
+
+    <main>
+        <!-- Lencana Keselamatan Siber -->
+        <div class="security-badge">
+            <i class="fa-solid fa-shield-halved"></i> Cyber Security Mode Active | XSS &amp; SSL Protected
+        </div>
+
+        <h2><i class="fa-solid fa-hand-wave"></i> Hello, I am Shahmi</h2>
+        <p>Welcome to my official personal website. This platform serves as a digital showcase of my academic background, technical skills, and projects as an IT student at <strong>UC TATI</strong>.</p>
+        
+        <!-- Bahagian Kad Imej Artikel AI dengan Layout Flexbox -->
+        <h3 style="margin-top: 30px;"><i class="fa-solid fa-newspaper"></i> Featured AI Articles &amp; Insights</h3>
+        <p>Here are two insightful resources exploring the foundations and benefits of artificial intelligence:</p>
+        
+        <div class="card-grid">
+            <!-- Artikel 1: Towards AI -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop" alt="Understanding AI" style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 10px;">
+                <h4 style="margin: 5px 0; color: #00b4d8;"><i class="fa-solid fa-brain"></i> Understanding AI: The 7 Types</h4>
+                <p style="font-size: 14px; color: #a8a8b3;">An analytical breakdown of different classification tiers in AI systems.</p>
+                <!-- rel="noopener noreferrer" elak Serangan Tabnabbing / Security Leak -->
+                <a href="https://pub.towardsai.net/understanding-ai-the-7-types-of-artificial-intelligence-b9db9862c3d1" target="_blank" rel="noopener noreferrer" style="color: #00b4d8; font-size: 14px; text-decoration: none; font-weight: bold;">
+                    Read Towards AI Article <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+
+            <!-- Artikel 2: University of Cincinnati -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=600&auto=format&fit=crop" alt="Artificial Intelligence Benefits" style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 10px;">
+                <h4 style="margin: 5px 0; color: #00b4d8;"><i class="fa-solid fa-chart-line"></i> Artificial Intelligence Benefits</h4>
+                <p style="font-size: 14px; color: #a8a8b3;">Discovering the practical advantages and impacts of AI across sectors.</p>
+                <a href="https://www.online.uc.edu/blog/artificial-intelligence-ai-benefits.html" target="_blank" rel="noopener noreferrer" style="color: #00b4d8; font-size: 14px; text-decoration: none; font-weight: bold;">
+                    Read UC Blog Article <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+
+        <h3><i class="fa-solid fa-list-check"></i> Quick Overview</h3>
+        <ul>
+            <li><strong>Degree Program:</strong> Bachelor of Information Technology With Business Management (Honours) (BIBM)</li>
+            <li><strong>Institution:</strong> University College TATI (UC TATI)</li>
+            <li><strong>Core Focus:</strong> Web Application Development, Software Engineering, &amp; Systems Design</li>
+        </ul>
+    </main>
+
+    <footer>
+        <p><i class="fa-solid fa-copyright"></i> Shahmi_24B10I004 Copyright.2026</p>
+    </footer>
+	<h3 style="margin-top: 30px;"><i class="fa-solid fa-code-branch"></i> Environment &amp; Stack Status</h3>
+        <p>This application is built with standard web protocols and optimized for responsiveness:</p>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
+            <span style="background: rgba(0, 180, 216, 0.2); color: #00b4d8; padding: 6px 12px; border-radius: 4px; font-size: 13px; font-weight: bold; border: 1px solid #00b4d8;"><i class="fa-brands fa-html5"></i> HTML5 Valid</span>
+            <span style="background: rgba(16, 185, 129, 0.2); color: #10b981; padding: 6px 12px; border-radius: 4px; font-size: 13px; font-weight: bold; border: 1px solid #10b981;"><i class="fa-brands fa-css3-alt"></i> CSS3 Modern</span>
+            <span style="background: rgba(139, 92, 246, 0.2); color: #a78bfa; padding: 6px 12px; border-radius: 4px; font-size: 13px; font-weight: bold; border: 1px solid #8b5cf6;"><i class="fa-solid fa-server"></i> Apache / XAMPP Ready</span>
+        </div>
+
+</body>
+</html>

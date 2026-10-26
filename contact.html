@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: 'unsafe-inline'; img-src 'self' https: data:;">
+    <title>Contact Me - Shahmi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1><i class="fa-solid fa-envelope"></i> Contact Me</h1>
+        <p>Let's get in touch for collaborations, projects, or inquiries</p>
+    </header>
+
+    <nav>
+        <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="about.html"><i class="fa-solid fa-user"></i> About Me</a>
+        <a href="interests.html"><i class="fa-solid fa-heart"></i> Interests</a>
+        <a href="professional.html"><i class="fa-solid fa-briefcase"></i> Professional</a>
+        <a href="portfolio.html"><i class="fa-solid fa-folder-open"></i> Portfolio</a>
+        <a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+    </nav>
+
+    <main>
+        <div class="security-badge">
+            <i class="fa-solid fa-shield-halved"></i> Cyber Security Mode Active | Form Anti-XSS Sanitized
+        </div>
+
+        <h2><i class="fa-solid fa-address-book"></i> Get In Touch</h2>
+        <p>Feel free to reach out using the official contact form below or connect via email.</p>
+
+        <h3><i class="fa-solid fa-paper-plane"></i> Quick Message Form</h3>
+        <form action="#" method="POST" style="margin-top: 15px;">
+            <div style="margin-bottom: 15px;">
+                <label for="name" style="display: block; margin-bottom: 5px; color: #f1f1f6;"><i class="fa-solid fa-signature"></i> Your Name:</label>
+                <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; background-color: #202024; border: 1px solid #29292e; color: #e1e1e6; border-radius: 4px;" placeholder="Enter your name">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="email" style="display: block; margin-bottom: 5px; color: #f1f1f6;"><i class="fa-solid fa-at"></i> Your Email:</label>
+                <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; background-color: #202024; border: 1px solid #29292e; color: #e1e1e6; border-radius: 4px;" placeholder="Enter your email">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="message" style="display: block; margin-bottom: 5px; color: #f1f1f6;"><i class="fa-solid fa-comment-dots"></i> Message:</label>
+                <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 10px; background-color: #202024; border: 1px solid #29292e; color: #e1e1e6; border-radius: 4px;" placeholder="Type your message here..."></textarea>
+            </div>
+            <button type="submit" style="background-color: #00b4d8; color: #121214; padding: 10px 20px; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <p><i class="fa-solid fa-copyright"></i> Shahmi_24B10I004 Copyright.2026</p>
+    </footer>
+	<script>
+    // Skrip pengesahan borang ringkas untuk menunjukkan elemen interaktif JavaScript
+    document.querySelector('form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('Thank you, Shahmi! Your message simulation has been secured and processed successfully.');
+        this.reset();
+    });
+</script>
+
+</body>
+</html>
